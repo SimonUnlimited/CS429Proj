@@ -1,2 +1,2 @@
 # CS429Proj
-Fuck this class
+HAHAHAHAHAHAHAH FUN STUF
