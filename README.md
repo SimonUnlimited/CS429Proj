@@ -1,2 +1,21 @@
 # CS429Proj
-HAHAHAHAHAHAHAH FUN STUF
+
+#Abstract
+
+#Overview
+
+#Design
+
+#Architecture
+
+#Operation
+
+#Conclusion
+
+#Data Sources
+
+#Test Cases
+
+#
+
+
