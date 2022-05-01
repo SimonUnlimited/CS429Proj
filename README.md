@@ -1,6 +1,6 @@
 # CS429Proj
 
-**Abstract**
+**Abstract** (**Make Sure to Failures in Conclusion to setup project properly**)
 
 The goal was to build a basic search enginer using a crawler that grabs data online, passing it to an indexer that creates a tfidf and calculates cosine similarity and then uses that data to rank webpages. My objective was to be able to build all these 3 components correctly and make them work together such that a person can go on my flask server, provide a url, and query and my project would output ranked documents based on the query. I was a ble to get most things running however, there are a few kinks worth mentioning (which will be mentioned below).
 
