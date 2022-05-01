@@ -69,7 +69,9 @@ Failures:
      In the projspider.py in line 21: i commented out 'CLOSESPIDER_PAGECOUNT': MAX_PAGES in the settings which would close the spider the once the max pages have been achieved. However, I don't believe my output was as expected. I was not fully able to figure this out.
      i) if the crawler in run the terminal sometimes in would have errors in the json it store and if I ran it in a script I would definitely has errors (it is a minor error where for exampel between entries in the json we this: "[]" which would make it imporssible for my whole project to run properly. Therefore I used a good json output from the crwaler statically as I was working with the latter parts of the project.
   
-  Part 2: In indexer.py and ranker.py I open a total of 3 files using an absolute path **I would recommend chaning this absolute path to represent the new (absolute path) location of the files once the project has been downloaded** 
+  Part 2: In indexer.py and ranker.py I open a total of 3 files using an absolute path **I would recommend chaning this absolute path to represent the new (absolute path) location of the files once the project has been downloaded**  
+  
+    Location indexer.py line 34, 42, ranker.py line 8
 
 Data Sources
 sklearn: https://scikit-learn.org/stable/
