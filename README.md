@@ -12,6 +12,10 @@ Because All the user has to is to run the application in an IDE, then go to the 
 
 
 **Design**
+By running app.py on vscode and providing a query similar to what was mentioned above, our application will crawl the web, create a tfidf for query and coument and provide a result in the form of json (top k ranked documents included in the result). All one needs to do is download this github repository and follow the steps metioned.
+
+**Architecture
+**
 
 Folder Structture:
 CS429Proj
@@ -41,14 +45,22 @@ CS429Proj
     App.py --> You run the whole application from here
     
   Read.me
+  
+**Operation**
+Intallation: git clone: https://github.com/SimonUnlimited/CS429Proj.git
+To start flask app: navigate to src dir + type: python3 app.py
+To run query: go to: web browser & write query similar to and same as : http://localhost:5000/search?query=Hello+Wikipedia&url=https://en.wikipedia.org/wiki/Main_Page&k=3
 
-
-
-Architecture
-
-Operation
+Caveats: **IMPORTANT** mentioned in conclusion
 
 Conclusion
+Successes: 
+
+  Part1: Was able to create a crawler, with a base url (that can be specified) and with a depth limit, 
+  
+  Part2: Provided documents, was able to write an indexer that successfully calculates tfidf and cosines 
+  
+  Part3: Was able wite functions that 1. sucessfully error check and return top k ranked documents in json format
 
 Data Sources
 
