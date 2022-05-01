@@ -54,6 +54,7 @@ To run query: go to: web browser & write query similar to and same as : http://l
 Caveats: **IMPORTANT** mentioned in conclusion
 
 Conclusion
+
 Successes: 
 
   Part1: Was able to create a crawler, with a base url (that can be specified) and with a depth limit, and works for multiple websites 
@@ -63,6 +64,7 @@ Successes:
   Part3: Was able wite functions that 1. sucessfully error check and return top k ranked documents in json format
   
 Failures:
+
   Part 1: i) Although the cralwer works, I do not think I was able to fully figure out how to limit max pages as asked. 
      In the projspider.py in line 21: i commented out 'CLOSESPIDER_PAGECOUNT': MAX_PAGES in the settings which would close the spider the once the max pages have been achieved. However, I don't believe my output was as expected. I was not fully able to figure this out.
      i) if the crawler in run the terminal sometimes in would have errors in the json it store and if I ran it in a script I would definitely has errors (it is a minor error where for exampel between entries in the json we this: "[]" which would make it imporssible for my whole project to run properly. Therefore I used a good json output from the crwaler statically as I was working with the latter parts of the project.
@@ -77,15 +79,34 @@ scrapy: https://scrapy.org/
 flask: https://flask.palletsprojects.com/en/2.1.x/
 
 Test Cases
+
 Project works for multiple websites, any query (that appears in the downloaded docs), 
 
 Source Code
+
   Libraries used:
+  
     sklearn, pickle, multiprocessing, json, scrapy, flask
   
   Intallation: git clone: https://github.com/SimonUnlimited/CS429Proj.git
 
 Bibliography
+
+“A Fast and Powerful Scraping and Web Crawling Framework.” Scrapy, https://scrapy.org/. 
+“Multiprocessing - Process-Based Parallelism¶.” Multiprocessing - Process-Based Parallelism - Python 3.10.4 Documentation,
+
+https://docs.python.org/3/library/multiprocessing.html. 
+“Pickle - Python Object Serialization¶.” Pickle - Python Object Serialization - Python 3.10.4 Documentation, 
+
+https://docs.python.org/3/library/pickle.html. 
+
+
+“Sklearn.feature_extraction.Text.TfidfVectorizer.” Scikit, https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html. 
+
+
+“Welcome to Flask¶.” Welcome to Flask - Flask Documentation (2.1.x), https://flask.palletsprojects.com/en/2.1.x/. 
+
+
 
 
 
