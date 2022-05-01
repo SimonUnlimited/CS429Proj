@@ -15,18 +15,31 @@ Because All the user has to is to run the application in an IDE, then go to the 
 
 Folder Structture:
 CS429Proj
+
   src
+  
     Processor --> Since indexing, calculating cosine similarity, and grabbing the k_ranked documents are very related I grouped them in 1 package
+    
       picklefiles --> all the relevant files that would possibly be pickled are store here since all of them are generated in the modules in this package
+      
       indexer --> Module holds functions required for 1. Processing the json resulting from the scrapper and creating a tfidf of the documents
+      
       ranker --> Module holes functions that 1. create a tfidf vector for the query and calculate cosine similarity between documents and query
+      
       runner ---> Modules bings both the indexer and ranker module in addition to error checking the query (as it is called in app.py) to return our k_ranked documents
+    
     Scrapper --> This package contains all the modules needed to run the crawler
+    
       ...
+      
         ...
+        
           spiders
+          
             projspider.py --> this modules holds all the functions required to run the scrapper
+            
     App.py --> You run the whole application from here
+    
   Read.me
 
 
